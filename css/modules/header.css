@@ -1,0 +1,54 @@
+.header {
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.header__bar-top {
+    padding-block-start: 1rem;
+    padding-block-end: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header__menu-left {
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+
+.header__heading {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: transparent;
+    background-image: url(https://picsum.photos/600/100);
+    background-repeat: no-repeat;
+    background-size: auto;
+    cursor: pointer;
+}
+
+.header__login {
+    text-decoration: none;
+    padding-inline-end: 0.5rem;
+    font-size: 0.5rem;
+}
+
+.header__menu-bottom {
+    padding-block: 0.6rem;
+    border-block: 1px solid #aaa;
+    box-shadow: 0px 5px 5px #aaa;
+    list-style: none;
+    font-size: 0.6rem;
+}
+
+.menu-bottom__link {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu__bottom__item {
+    color: var(--clr-primary-one);
+}
+
+.menu-bottom__item:last-child {
+    color: var(--clr-primary-four);
+}

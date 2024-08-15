@@ -1,0 +1,39 @@
+.hero__details {
+    padding-block-start: 2rem;
+    gap: 0.75rem;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 0.5rem;
+}
+
+.details__subscription {
+    color: var(--clr-primary-four);
+}
+
+.details__reading-time {
+    color: var(--clr-secondary-one);
+    text-transform: uppercase;
+}
+
+.hero__heading {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.hero__introductory-paragraph {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--clr-primary-two);
+}
+
+.hero__image-text {
+    color: var(--clr-primary-two);
+    font-size: 0.6rem;
+    line-height: 1.25;
+}
+
+.hero__photographer-name {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 0.5rem;
+    font-weight: 700;
+}
