@@ -1,0 +1,31 @@
+.sign-in {
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-align: center;
+    padding-block-start: 2rem;
+}
+
+.sign-in__header {
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding-block-end: 1rem;
+}
+
+.sign-in__button {
+    padding: 0.5rem 3.2rem;
+    border-radius: 0.15rem;
+    background-color: var(--clr-primary-four);
+    color: var(--clr-primary-three);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.sign-in__text {
+    color: var(--clr-secondary-one);
+    font-size: 0.7rem;
+}
+
+.sign-in__link {
+    color: var(--clr-primary-one);
+}

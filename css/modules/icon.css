@@ -1,6 +1,6 @@
 .icon {
-    height: 1rem;
-    width: auto;
+    height: auto;
+    width: 1rem;
 }
 
 /* ---------- header ---------- */
@@ -53,4 +53,25 @@
 
 .social-media__icon-container {
     padding-inline-start: 0.35rem;
+}
+
+/* ---------- previous-articles ---------- */
+.previous-articles__compass-icon {
+    color: var(--clr-secondary-one);
+}
+
+.previous-articles__navigation-icon-background {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--clr-secondary-one);
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-articles__navigation-icon {
+    color: var(--clr-primary-three);
+    height: 0.9rem;
+    width: 0.9rem;
 }

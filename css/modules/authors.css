@@ -10,6 +10,7 @@
 
 .first-author, .second-author {
     font-style: normal;
+    padding-block-start: 2.25rem;
 }
 
 .second-author {

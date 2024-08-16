@@ -1,0 +1,47 @@
+.latest-news__heading {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: var(--clr-primary-four);
+    font-size: 0.75rem;
+    border-block-end: 1px dotted #000;
+    padding-block-end: 0.3rem;
+}
+
+.latest-news__list {
+    list-style: none;
+}
+
+.latest-news__list-item {
+    border-block-end: 1px dotted #aaa;
+    padding-block: 0.3rem;
+}
+
+.latest-news__list-item:last-child {
+    border-block-end: 1px dotted #000;
+}
+
+.latest-news__time {
+    color: var(--clr-secondary-one);
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 0.5rem;
+}
+
+.latest-news__link-list {
+    text-decoration: none;
+}
+
+.latest-news__subheading {
+    font-size: 0.65rem;
+}
+
+.latest-news__link-bottom {
+    text-decoration: none;
+    display: block;
+    margin-block-start: 0.5rem;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 0.55rem;
+    font-weight: 800;
+}
+
+.small {
+    font-size: 0.3rem;
+}

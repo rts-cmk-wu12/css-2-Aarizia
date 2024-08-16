@@ -44,13 +44,13 @@
             </ul>
         </header>
         <main class="main">
-            <div class="add flex-row">
+            <div class="flex-row">
                 <a href="#">
                     <img class="add__image" src="https://picsum.photos/200/300" alt="reklamefoto">
                 </a>
                 <p class="add__text">Annonce</p>
             </div>
-            <div>
+            <div class="article-wrapper">
                 <article class="hero grid">
                     <div class="hero__details flex-row">
                         <p class="details__subscription">Abonnement</p>
@@ -156,31 +156,31 @@
                     </div>
                 </div>
             </div>
-            <article class="sign-in">
-                <h2>Vores abonnenter kalder os kritisk, seriøs og troværdig. <span>Se om du er enig...</span></h2>
-                <a href="#">Klik her</a>
-                <p>Allerede abonnent? <a href="#">Log ind her</a></p>
+            <article class="sign-in flex-column">
+                <h2 class="sign-in__header">Vores abonnenter kalder os kritisk, seriøs og troværdig. <span class="line-break">Se om du er enig...</span></h2>
+                <a class="sign-in__button" href="#">Klik her</a>
+                <p class="sign-in__text">Allerede abonnent? <a class="sign-in__link" href="#">Log ind her</a></p>
             </article>
-            <div class="other-articles">
-                <header>
-                    <div class="flex-container">
-                        <div class="text-and-icon">
-                            <p>Fik du læst?</p>
-                            <svg class="icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <div class="more-articles grid">
+                <header class="previous-articles">
+                    <div class="previous-articles__header flex-row">
+                        <div class="previous-articles__header-left flex-row">
+                            <p class="previous-articles__header-left-text">Fik du læst?</p>
+                            <svg class="icon previous-articles__compass-icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
                             </svg>
                         </div>
-                        <nav>
+                        <nav class="previous-articles__navigation flex-row">
                             <div>
-                                <a href="#">
-                                    <svg class="icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <a class="previous-articles__navigation-icon-background" href="#">
+                                    <svg class="icon previous-articles__navigation-icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"></path>
                                     </svg>
                                 </a>
                             </div>
                             <div>
-                                <a href="#">
-                                    <svg class="icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <a class="previous-articles__navigation-icon-background" href="#">
+                                    <svg class="icon previous-articles__navigation-icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                     </svg>
                                 </a>
@@ -188,93 +188,93 @@
                         </nav>
                     </div>
                 </header>
-                <div>
-                    <section>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h2>Alternativ forbrødring, eller hvordan jeg lærte at holde op med at bekymre mig og elske jazzhænder</h2>
+                <div class="previous-articles__articles grid">
+                    <section class="previous-articles__article">
+                        <img class="previous-article__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h2 class="previous-article__heading">Alternativ forbrødring, eller hvordan jeg lærte at holde op med at bekymre mig og elske jazzhænder</h2>
                     </section>
-                    <section>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h2> &gt;&gt;Jeg måtte ud på det dybe vand for at nå til et nyt land&lt;&lt; </h2>
+                    <section class="previous-articles__article">
+                        <img class="previous-article__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h2 class="previous-article__heading"> &gt;&gt;Jeg måtte ud på det dybe vand for at nå til et nyt land&lt;&lt; </h2>
                     </section>
-                    <section>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h2>Iceage lever stadig op til den hype, de opnåede, inden de var gamle nok til at flytte hjemmefra</h2>
+                    <section class="previous-articles__article">
+                        <img class="previous-article__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h2 class="previous-article__heading">Iceage lever stadig op til den hype, de opnåede, inden de var gamle nok til at flytte hjemmefra</h2>
                     </section>
-                    <section>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h2>Under normale forhold ville Trumps skandaleramte miljøchef forlængst være blevet bortvist...</h2>
+                    <section class="previous-articles__article">
+                        <img class="previous-article__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h2 class="previous-article__heading">Under normale forhold ville Trumps skandaleramte miljøchef forlængst være blevet bortvist...</h2>
                     </section>
                 </div>
-                <article>
+                <article class="latest-news">
                     <header>
-                        <h2>Seneste nyt</h2>
+                        <h2 class="latest-news__heading">Seneste nyt</h2>
                     </header>
-                    <ul>
-                        <li>
-                            <p>16:36</p>
-                            <a href="#"><h3>Slut med møntbetaling i københavnske p-automater</h3></a>
+                    <ul class="latest-news__list">
+                        <li class="latest-news__list-item">
+                            <p class="latest-news__time">16:36</p>
+                            <a class="latest-news__link-list" href="#"><h3 class="latest-news__subheading">Slut med møntbetaling i københavnske p-automater</h3></a>
                         </li>
-                        <li>
-                            <p>16:26</p>
-                            <a href="#"><h3>Energiminister: Afgift på biomasse er forkert vej at gå</h3></a>
+                        <li class="latest-news__list-item">
+                            <p class="latest-news__time">16:26</p>
+                            <a class="latest-news__link-list" href="#"><h3 class="latest-news__subheading">Energiminister: Afgift på biomasse er forkert vej at gå</h3></a>
                         </li>
-                        <li>
-                            <p>15:45</p>
-                            <a href="#"><h3>Libanesisk premierministers parti går en tredjedel tilbage</h3></a>
+                        <li class="latest-news__list-item">
+                            <p class="latest-news__time">15:45</p>
+                            <a class="latest-news__link-list" href="#"><h3 class="latest-news__subheading">Libanesisk premierministers parti går en tredjedel tilbage</h3></a>
                         </li>
-                        <li>
-                            <p>15:10</p>
-                            <a href="#"><h3>Ombudsmand: Offentligheden må se kronprinsens IOC-breve</h3></a>
+                        <li class="latest-news__list-item">
+                            <p class="latest-news__time">15:10</p>
+                            <a class="latest-news__link-list" href="#"><h3 class="latest-news__subheading">Ombudsmand: Offentligheden må se kronprinsens IOC-breve</h3></a>
                         </li>
-                        <li>
-                            <p>15:02</p>
-                            <a href="#"><h3>WWF: Vildsvinehegn skader andre dyrearter i grænselandet</h3></a>
+                        <li class="latest-news__list-item">
+                            <p class="latest-news__time">15:02</p>
+                            <a class="latest-news__link-list" href="#"><h3 class="latest-news__subheading">WWF: Vildsvinehegn skader andre dyrearter i grænselandet</h3></a>
                         </li>
-                        <li>
-                            <p>14:46</p>
-                            <a href="#"><h3>Atomaftale med Iran fortsætter også uden USA</h3></a>
+                        <li class="latest-news__list-item">
+                            <p class="latest-news__time">14:46</p>
+                            <a class="latest-news__link-list" href="#"><h3 class="latest-news__subheading">Atomaftale med Iran fortsætter også uden USA</h3></a>
                         </li>
                     </ul>
-                    <a href="#">Flere nyheder <span>&gt;</span></a>
+                    <a class="latest-news__link-bottom" href="#">Flere nyheder <span class="small">&gt;</span></a>
                 </article>
-                <article>
-                    <header>
-                        <a href="#"><h2>Information.dk</h2></a>
+                <article class="frontpage-overview grid">
+                    <header class="frontpage-overview__header">
+                        <a  class="frontpage-overview__link" href="#"><h2>Information.dk</h2></a>
                     </header>
-                    <div>
-                        <svg class="icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <div class="frontpage-overview__text">
+                        <svg class="icon frontpage-overview__icon" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
                         </svg>
-                        <p>Forsiden lige nu</p>
+                        <p class="frontpage-overview__text">Forsiden lige nu</p>
                     </div>
-                    <section>
-                        <p>Abonnement</p>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h3>
+                    <section class="frontpage-overview__article">
+                        <p class="frontpage-overview__subscription">Abonnement</p>
+                        <img class="frontpage-overview__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h3 class="frontpage-overview__heading">Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h3>
                     </section>
-                    <section>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>Mand dig op, kvinde!</h3>
+                    <section class="frontpage-overview__article">
+                        <img class="frontpage-overview__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h3 class="frontpage-overview__heading">Mand dig op, kvinde!</h3>
                     </section>
-                    <section>
-                        <h3>Peter Madsen anker kun længden af sin straf</h3>
-                        <p>Ankesagen mod Peter Madsen kommer kun til at handle om, hvilken straf han skal have</p>
+                    <section class="frontpage-overview__article">
+                        <h3 class="frontpage-overview__heading">Peter Madsen anker kun længden af sin straf</h3>
+                        <p class="frontpage-overview__article-text">Ankesagen mod Peter Madsen kommer kun til at handle om, hvilken straf han skal have</p>
                     </section>
-                    <section>
-                        <p>Abonnement</p>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>Rapport fra norsk regeringskommission skaber tvivl om lovligheden af FE's masseovervågning</h3>
+                    <section class="frontpage-overview__article">
+                        <p class="frontpage-overview__subscription">Abonnement</p>
+                        <img class="frontpage-overview__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h3 class="frontpage-overview__heading">Rapport fra norsk regeringskommission skaber tvivl om lovligheden af FE's masseovervågning</h3>
                     </section>
-                    <section>
-                        <p>Abonnement</p>
-                        <h3>Sådan håndteres offentlige arbejdskonflikter i Sverige og Norge</h3>
-                        <p>Den ellers højtbesungne danske model skal revideres, hvis det står til Socialdemokratiets formand, Mette Frederiksen. Information skitserer i den anledning overenskomstmodellerne hos vores nordiske søsternationer. Men måske behøver vi slet ikke se ud over landets grænser for at finde inspiration til justeringer</p>
+                    <section class="frontpage-overview__article">
+                        <p class="frontpage-overview__subscription">Abonnement</p>
+                        <h3 class="frontpage-overview__heading">Sådan håndteres offentlige arbejdskonflikter i Sverige og Norge</h3>
+                        <p class="frontpage-overview__article-text">Den ellers højtbesungne danske model skal revideres, hvis det står til Socialdemokratiets formand, Mette Frederiksen. Information skitserer i den anledning overenskomstmodellerne hos vores nordiske søsternationer. Men måske behøver vi slet ikke se ud over landets grænser for at finde inspiration til justeringer</p>
                     </section>
-                    <section>
-                        <p>Abonnement</p>
-                        <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>440.000 syrere er vendt tilbage, selv om krigen fortsætter. Vi har fulgt en af dem</h3>
+                    <section class="frontpage-overview__article">
+                        <p class="frontpage-overview__subscription">Abonnement</p>
+                        <img class="frontpage-overview__image" src="https://picsum.photos/75/50" alt="article image">
+                        <h3 class="frontpage-overview__heading">440.000 syrere er vendt tilbage, selv om krigen fortsætter. Vi har fulgt en af dem</h3>
                     </section>
                 </article>
             </div>
