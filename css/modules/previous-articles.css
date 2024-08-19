@@ -1,0 +1,24 @@
+.previous-articles__header {
+    border-block-end: 1px dotted #000;
+    padding-block: 2rem 0.3rem;
+}
+
+.previous-articles__header-left-text {
+    color: var(--clr-primary-four);
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.previous-articles__articles {
+    padding-block-start: 1.3rem;
+}
+
+.previous-articles__article {
+    cursor: pointer;
+}
+
+.previous-article__heading {
+    font-size: 0.75rem;
+    font-weight: 700;
+}

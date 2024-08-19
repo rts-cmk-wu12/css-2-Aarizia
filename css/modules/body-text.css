@@ -1,0 +1,57 @@
+.body-text__header {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    border-block-end: 1px dotted #000;
+}
+
+.body-text__comments {
+    cursor: pointer;
+}
+
+.body-text__text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding-block-start: 2rem;
+}
+
+.body-text__social-media {
+    padding-block-start: 2rem;
+}
+
+.social-media__link {
+    height: 1.5rem;
+    width: 5rem;
+    background-color: var(--clr-tertiary-two);
+    border-radius: 0.1rem;
+    align-items: center;
+    text-decoration: none;
+    color: var(--clr-primary-three);
+    cursor: pointer;
+}
+
+.social-media__twitter {
+    background-color: var(--clr-tertiary-one);
+}
+
+.social-media__email {
+    background-color: var(--clr-secondary-one);
+}
+
+.social-media__command {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+.body-text::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #fff, transparent);
+    position: absolute;
+    top: 0;
+}

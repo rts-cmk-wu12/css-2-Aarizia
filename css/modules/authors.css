@@ -1,0 +1,28 @@
+.authors {
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.authors__heading {
+    color: var(--clr-primary-four);
+    font-size: 0.75rem;
+    border-block-end: 1px dotted #000;
+}
+
+.first-author, .second-author {
+    font-style: normal;
+    padding-block-start: 2.25rem;
+}
+
+.second-author {
+    padding-block-start: 0.5rem;
+}
+
+.authors__name {
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+
+.authors__link {
+    text-decoration: none;
+    font-size: 0.65rem;
+}

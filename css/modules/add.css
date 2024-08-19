@@ -1,0 +1,15 @@
+.add__image {
+    width: 38.5rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.add__text {
+    writing-mode: vertical-rl;
+    color: var(--clr-secondary-one);
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-align: center;
+    font-size: 0.5rem;
+}
