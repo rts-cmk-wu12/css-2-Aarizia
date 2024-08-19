@@ -1,0 +1,95 @@
+.footer {
+    background-color: var(--clr-secondary-five);
+    border-block-start: 1px dotted #aaa;
+    padding-block-end: 1.5rem;
+    text-align: center;
+}
+
+.footer__heading {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--clr-secondary-two);
+    text-shadow: 1px 1px #f0f0f0;
+    margin-block-start: 0.75rem;
+    text-align: left;
+}
+
+.footer__text {
+    font-size: 0.6rem;
+    line-height: 1.25;
+    color: var(--clr-secondary-two);
+    text-align: left;
+    padding-block-start: 0.5rem;
+}
+
+.footer__links {
+    padding-block-start: 0.5rem;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-size: 0.6rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+.footer__image {
+    -webkit-box-shadow: 0 0 10px #999;
+        box-shadow: 0 0 10px #000;
+        cursor: pointer;
+}
+
+.footer__form {
+    padding-block-start: 0.5rem;
+}
+
+.footer__form-input {
+    font-size: 0.5rem;
+    font-family: "Schibsted Grotesk", sans-serif;
+    padding: 0.25rem;
+    color: var(--clr-secondary-three);
+    border: 1px solid #b9b9b9;
+    border-radius: 0.15rem;
+}
+
+.footer__form-button {
+    font-size: 0.5rem;
+    font-weight: 700;
+    background-color: var(--clr-secondary-three);
+    color: var(--clr-secondary-two);
+    border: none;
+    border-radius: 0;
+    padding-inline: 0.25rem;
+}
+
+.footer__hosted {
+    font-size: 0.6rem;
+    padding-block-start: 1rem;
+    text-align: left;
+}
+
+.footer__contact-address {
+    font-size: 0.5rem;
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-align: center;
+    border-block-start: 2px groove #fff;
+    margin-block: 2rem 1rem;
+    padding-block-start: 1rem;
+}
+
+.footer__contact-address-link {
+    text-decoration: none;
+}
+
+.footer__contact-link {
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-decoration: none;
+    font-size: 0.5rem;
+    font-weight: 700;
+    background-color: var(--clr-secondary-three);
+    color: var(--clr-secondary-two);
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem 0.75rem;
+}

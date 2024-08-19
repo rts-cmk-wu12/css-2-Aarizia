@@ -6,6 +6,7 @@
 /* ---------- header ---------- */
 .header__icon {
     height: 0.75rem;
+    width: 0.75rem;
 }
 
 .header__search-icon {
@@ -74,4 +75,26 @@
     color: var(--clr-primary-three);
     height: 0.9rem;
     width: 0.9rem;
+}
+
+/* ---------- frontpage-overview ---------- */
+.frontpage-overview__icon {
+    height: 0.75rem;
+    width: 0.75rem;
+    color: var(--clr-secondary-one);
+}
+
+/* ---------- comments ---------- */
+.comments__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--clr-primary-two);
+    color: var(--clr-primary-three);
+    border-radius: 10rem;
+}
+
+/* ---------- footer ---------- */
+.footer__icon {
+    height: 0.75rem;
+    width: 0.75rem;
 }

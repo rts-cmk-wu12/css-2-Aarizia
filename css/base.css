@@ -13,3 +13,7 @@
     background-color: var(--clr-primary-three);
 }
 
+.border-bottom {
+    border-block-end: 1px dotted #000;
+}
+

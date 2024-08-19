@@ -1,0 +1,42 @@
+.frontpage-overview__header {
+    font-size: 0.5rem;
+    border-block-end: 1px dotted #000;
+}
+
+.frontpage-overview__link {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: var(--clr-primary-four);
+    text-decoration: none;
+    text-align: right;
+}
+
+.frontpage-overview__text {
+    text-decoration: none;
+    display: block;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 0.55rem;
+    font-weight: 800;
+}
+
+.frontpage-overview__article {
+    cursor: pointer;
+}
+
+.frontpage-overview__subscription {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 0.5rem;
+    color: var(--clr-primary-four);
+    text-transform: uppercase;
+}
+
+.frontpage-overview__heading {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.frontpage-overview__article-text {
+    color: var(--clr-secondary-one);
+    font-size: 0.6rem;
+    line-height: 1.25;
+}
